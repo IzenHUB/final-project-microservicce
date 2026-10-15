@@ -80,7 +80,7 @@ git switch -c feature/<ชื่อบริการ>-<งาน>
 - ติดตั้ง Git, Node.js รุ่น LTS ที่กลุ่มเลือก และ Docker Desktop; เปิด Docker Desktop ไว้ก่อนใช้ Compose
 - ใช้ Node version และคำสั่งที่กำหนดใน `README`/`package.json` ของบริการเมื่อเริ่มสร้างโค้ด
 - เข้าถึง GitHub repo ของกลุ่ม และตรวจว่า clone กับ push branch ของตนเองได้
-- ตั้งค่าบัญชี Docker Hub และเข้าสู่ระบบ Docker Desktop เฉพาะผู้ที่ต้อง build/push image จากเครื่องตนเอง; การเผยแพร่อัตโนมัติใช้ GitHub Actions ของ repo กลุ่ม
+- ตั้งค่าบัญชี Docker Hub และเข้าสู่ระบบ Docker Desktop เฉพาะผู้ที่ต้อง build/push image จากเครื่องตนเอง การเผยแพร่อัตโนมัติใช้ GitHub Actions ของ repo กลุ่ม
 
 ## เปิดระบบในเครื่องด้วย Docker Compose
 
